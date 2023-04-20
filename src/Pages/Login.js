@@ -65,15 +65,7 @@ const Login = () => {
                 <i className="fab fa-google-plus-g"></i> Google
               </span>
             </button>
-            <button
-              className="btn facebook-btn social-btn"
-              type="button"
-              onClick={handleFBsignIn}
-            >
-              <span>
-                <i className="fab fa-facebook-f"> </i> Facebook
-              </span>
-            </button>
+            
           </div>
 
           <p style={{ textAlign: "center" }}>OR</p>

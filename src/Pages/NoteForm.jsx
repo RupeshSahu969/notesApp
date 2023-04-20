@@ -24,15 +24,6 @@ const NoteForm = () => {
     window.location.reload();
   };
 
-  
-  var arr1 = JSON.parse(localStorage.getItem("bookmark")) || [];
-  function handleBookmark(e) {
-    arr1.push(e);
-    localStorage.setItem("bookmark", JSON.stringify(arr1));
-
-    alert("Add to Bookmark Succefull!");
-  }
-
   return (
     <>
       <div>
