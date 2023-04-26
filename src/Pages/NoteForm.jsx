@@ -22,7 +22,7 @@ const NoteForm = () => {
     arr.push(obj1);
     localStorage.setItem("notes", JSON.stringify(arr));
     window.location.reload();
-  };
+  }
 
   return (
     <>
